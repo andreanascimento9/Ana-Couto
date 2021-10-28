@@ -1,0 +1,75 @@
+html {
+    font-family: "Circular Spotify Tx T Black"
+}
+
+.single-cat-name {
+    color: white
+}
+
+.tempo {
+    color: white;
+}
+
+.single-title {
+    color: white;
+    margin-top: 14px;
+    margin-bottom: 28px
+}
+
+.conteudo {
+    color: white;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.single-cat-name ul li {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px 25px 5px 25px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.cat {
+    background-color: white;
+    color: black;
+}
+
+iframe {
+    margin-left: 3rem;
+}
+
+.single-cat-name,
+.single-title,
+.conteudo {
+    margin-left: 15rem;
+}
+
+#custom_post_series {
+    display: none;
+}
+
+.single_heading li {
+    display: inline-block;
+}
+
+.categoria {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width:700px) {
+    iframe {
+        margin: 0;
+        max-width: 100%;
+    }
+    .single-cat-name,
+    .single-title,
+    .conteudo {
+        margin-left: 3rem;
+    }
+    p {
+        color: white;
+        border-bottom: none;
+    }
+}

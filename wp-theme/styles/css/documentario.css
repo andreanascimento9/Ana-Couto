@@ -1,0 +1,98 @@
+html {
+    font-family: "Circular Spotify Tx T Black"
+}
+
+.page-documentarios {
+    background: black;
+    padding-top: 3rem;
+}
+
+.titulo-documentario {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.attachment-post-thumbnail {
+    object-fit: cover;
+    width: 208px;
+    height: 347px;
+    border-radius: 3px;
+}
+
+.tempo {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 3px;
+    max-width: 50px;
+    text-align: center;
+}
+
+.titulo-series {
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.col-left {
+    width: 42%;
+}
+
+.col-right {
+    width: 58%;
+    max-width: 68%;
+}
+
+.col-right li {
+    display: inline-table;
+    margin: 10px;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+.titulo-pagina {
+    color: red;
+    padding-left: 45px;
+    padding-bottom: 20px;
+}
+
+.descricao {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        display: block;
+    }
+    .col-left {
+        width: 100%;
+    }
+    .col-right {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .attachment-post-thumbnail {
+        object-fit: cover;
+        width: 158px;
+        height: 297px;
+        border-radius: 3px;
+    }
+    .titulo-documentario {
+        text-align: left;
+        max-width: 150px;
+    }
+    .descricao {
+        margin-bottom: 50px;
+    }
+}
